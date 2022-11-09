@@ -11,7 +11,6 @@
 </p>
 
 <p>
- <a href="/books/1/edit">Edit</a>
- |
- <a href="/books">Back</a>
+ <%= link_to "Edit", edit_book_path(@book.id) %>
+ <%= link_to "Back", books_path %>
 </p>
